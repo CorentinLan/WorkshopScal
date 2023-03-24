@@ -1,21 +1,7 @@
 object Loop {
-    def LoopFor = {
-        for (i <- 1 to 5) {
-            println(i)
-        }
-    }
-    def LoopRecPlus(n: Int): Unit = {
-        if (n <= 5) {
-            println(n)
-            LoopRecPlus(n + 1)
-        }
-    }
-    def LoopRecMinus(n: Int): Unit = {
-        if (n > 0) {
-            LoopRecMinus(n - 1)
-            println(n)
-        }
-    }
+    //Coder ici la fonction LoopFor qui print les nombres de 1 à 5 en utilisant une boucle for
+    //Coder ici la fonction LoopRecPlus qui print les nombres de n à 5 de manière récursive
+    //Coder ici la fonction LoopRecMinus qui print les nombres de 1 à n de manière récursive
     def main(args: Array[String]) = {
         LoopFor
         LoopRecPlus(1)
